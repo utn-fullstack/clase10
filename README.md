@@ -18,15 +18,15 @@ DBUSER=xxxxxx DBPSW=xxxxxx npm start
 
 ## Links utiles
 
-- Documentacion oficial de GraphQL mutations
+### Documentacion oficial de GraphQL mutations
 
-http://graphql.org/learn/queries/#mutations
-http://graphql.org/graphql-js/mutations-and-input-types/
+- http://graphql.org/learn/queries/#mutations
+- http://graphql.org/graphql-js/mutations-and-input-types/
 
-- Tools para implementacion de un server GraphQL compatible con Relay
+### Tools para implementacion de un server GraphQL compatible con Relay
 
-https://github.com/graphql/graphql-relay-js
+- https://github.com/graphql/graphql-relay-js
 
-## mLab cloud Database-as-a-Service
+### mLab cloud Database-as-a-Service
 
 - https://mlab.com/
