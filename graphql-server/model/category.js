@@ -1,7 +1,7 @@
 const mongo = require("./mongo");
 const shortid = require("shortid");
 
-const newCatId = () => "BK-" + shortid.generate();
+const newCatId = () => "CA-" + shortid.generate();
 
 exports.getAll = () => mongo.collection("categories")
   .then(col => {

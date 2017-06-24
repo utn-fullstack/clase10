@@ -3,6 +3,8 @@ const user = process.env.DBUSER;
 const psw = process.env.DBPSW;
 const connectionString = `mongodb://${user}:${psw}@ds131312.mlab.com:31312/fullstack-course`;
 
+console.log(connectionString);
+
 let promise;
 let db;
 

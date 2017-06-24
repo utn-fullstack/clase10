@@ -8,6 +8,7 @@ const {
 
 const { categoryType } = require('./types/category');
 const { bookType } = require('./types/book');
+const { nodeField } = require('./node');
 
 const queryType = new GraphQLObjectType({
   name: 'Query',
@@ -38,7 +39,8 @@ const queryType = new GraphQLObjectType({
           type: GraphQLString
         }
       }
-    }
+    },
+    node: nodeField
   })
 });
 
